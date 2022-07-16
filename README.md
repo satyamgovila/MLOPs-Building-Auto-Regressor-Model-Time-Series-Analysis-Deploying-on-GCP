@@ -26,19 +26,19 @@ MLOps is a set of practices for collaboration and communication between data sc
 
 There are various terms and concepts in time series that we should know. These are as follows:-
 
-1 Dependence- It refers to the association of two observations of the same variable at prior time periods.
+* Dependence- It refers to the association of two observations of the same variable at prior time periods.
 
-2 Stationarity- It shows the mean value of the series that remains constant over the time period. If past effects accumulate and the values increase towards infinity then stationarity is not met.
+* Stationarity- It shows the mean value of the series that remains constant over the time period. If past effects accumulate and the values increase towards infinity then stationarity is not met.
 
-3 Differencing- Differencing is used to make the series stationary and to control the auto-correlations. There may be some cases in time series analyses where we do not require differencing and over-differenced series can produce wrong estimates.
+* Differencing- Differencing is used to make the series stationary and to control the auto-correlations. There may be some cases in time series analyses where we do not require differencing and over-differenced series can produce wrong estimates.
 
-4 Specification - It may involve the testing of the linear or non-linear relationships of dependent variables by using time series models such as ARIMA models.
+* Specification - It may involve the testing of the linear or non-linear relationships of dependent variables by using time series models such as ARIMA models.
 
-5 Exponential Smoothing - Exponential smoothing in time series analysis predicts the one next period value based on the past and current value. It involves averaging of data such that the non-systematic components of each individual case or observation cancel out each other. The exponential smoothing method is used to predict the short term prediction.
+* Exponential Smoothing - Exponential smoothing in time series analysis predicts the one next period value based on the past and current value. It involves averaging of data such that the non-systematic components of each individual case or observation cancel out each other. The exponential smoothing method is used to predict the short term prediction.
 
-6 Curve fitting - Curve fitting regression in time series analysis is used when data is in a non-linear relationship.
+* Curve fitting - Curve fitting regression in time series analysis is used when data is in a non-linear relationship.
 
-7 ARIMA - ARIMA stands for Auto Regressive Integrated Moving Average.
+* ARIMA - ARIMA stands for Auto Regressive Integrated Moving Average.
 
 **GCP MLOPs Environment**
 
@@ -149,7 +149,7 @@ After successful deployment, make a commit to source repository and the followin
 * Cloud function will deploy the new image on Kubernetes
     * To test the deployment, check the logs on kubernetes cluster using the following command
         * kubectl get pods 
-        * kubectl logs <pod name>
+        * kubectl logs [pod name]
     * The deployment will reflect in the logs as well as in the endpoints
 
 
