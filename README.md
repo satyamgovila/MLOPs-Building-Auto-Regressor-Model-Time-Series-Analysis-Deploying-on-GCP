@@ -37,7 +37,7 @@ Google Cloud facilitates end-to-end MLOps with its range of services and product
 * GCP
 
 
-## **Data Description **
+## Data Description 
 
 * The CSV data used for the project showcases the readings of 3 sensors of a chiller. The file contains data from one chiller, and the sensors give out one value at every hour of the day.
 * Data has 1895 rows and 5 columns.
@@ -49,7 +49,7 @@ Google Cloud facilitates end-to-end MLOps with its range of services and product
     5.  Sensor_Value: The final value to be predicted
 
 
-## **Approach used for Time-Series Analysis **
+## Approach used for Time-Series Analysis 
 
 The time series analysis is performed using the following techniques:-
 
