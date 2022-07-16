@@ -71,14 +71,14 @@ The time series analysis is performed using the following techniques:-
 1. **input** directory :- contains the CSV file which will be used as an input dataset, filename - Data-chillers.csv
 2. **src/ML_Pipeline/** directory :- 
 
-* Preprocess.py : Class to preprocess the data, handle missing values, set time as index and QQ plots
-* Engine.py: Main class for starting different parts and processes of the lifecycle
-* WhiteNoise.py : Steps to test if the visualization is white noise or not
-* RandomWalk.py : Steps to test if the visualization is random walk or not
-* Stationarity.py : Steps to test if the visualization is stationary or not
-* AcfAndPacf.py : Steps to test the visualization of lag features
-* Autoregressor.py : Training the model on autoregression with log likelyhood
-* RollingWindow.py : Steps to verify the Mean and Std
+* **Preprocess.py** : Class to preprocess the data, handle missing values, set time as index and QQ plots
+* **Engine.py**: Main class for starting different parts and processes of the lifecycle
+* **WhiteNoise.py** : Steps to test if the visualization is white noise or not
+* **RandomWalk.py** : Steps to test if the visualization is random walk or not
+* **Stationarity.py** : Steps to test if the visualization is stationary or not
+* **AcfAndPacf.py** : Steps to test the visualization of lag features
+* **Autoregressor.py** : Training the model on autoregression with log likelyhood
+* **RollingWindow.py** : Steps to verify the Mean and Std
 
 3. **kubernetes yaml files** directory :- Contains all the required yaml files to trigger Kubernetes (service and deployment)
 4. **output** directory :- Contains output plots of all the analysis and pickel file which has results of final model(auto_regressor_model.pkl)
