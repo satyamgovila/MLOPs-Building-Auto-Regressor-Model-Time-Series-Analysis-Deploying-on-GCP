@@ -1,4 +1,4 @@
-# MLOPs Project : Building Auto-Regressor Model for Time-Series Analysis Using Rolling Window and Deploying on GCP
+# MLOPs Project : Building Auto-Regressor Model for Time-Series Analysis and Deploying on GCP
 
 ## **Overview of the Project**
 Until recently, all of us were learning about software development lifecycle and different agile methodologies and how the complete pipeline goes from requirement gathering designing development testing deployment all the way down to maintenance. 
